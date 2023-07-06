@@ -1,0 +1,9 @@
+autostate:
+  states:
+    docker.compose:
+      enabled: true  # default is true
+      priority: 1000 # default prio
+    k8s:
+      enabled: true  # default is true
+      priority: 5000 # executed later in order
+
