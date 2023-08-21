@@ -12,6 +12,9 @@ include:
  - {{ state }}
 {%-   endfor %}
 {%- endfor %}
+
+autostate applied:
+  test.nop
 {%- else %}
 no autostate:
   test.nop
